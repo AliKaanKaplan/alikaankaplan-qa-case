@@ -63,7 +63,7 @@ public class LeverValidation extends BasePage {
 
     public void validateQaJobListingsPageLoaded() {
         wait.until(ExpectedConditions.urlContains("jobs.lever.co"));
-        this.assertElementVisible(LeverLocator.INSIDER_LOGO, "İnsider logo is not visible");
+        this.assertElementVisible(LeverLocator.INSIDER_LOGO, "Insider logo is not visible");
         this.assertElementVisible(LeverLocator.FILTER_BAR, "Filter bar should be visible");
         this.assertElementVisible(LeverLocator.TITLE_OF_POSTGROUP, "Title of group should be visible");
     }
