@@ -1,54 +1,43 @@
+# =========================
+# BUILD / IDE
+# =========================
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+build/
 .kotlin
 
-### IntelliJ IDEA ###
 .idea/
 *.iws
 *.iml
 *.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
 
-### Mac OS ###
+# =========================
+# OS
+# =========================
 .DS_Store
+Thumbs.db
 
-# Logs
+# =========================
+# LOGS
+# =========================
 *.log
 
-# Test outputs
+# =========================
+# TEST OUTPUTS
+# =========================
 reports/
-allure-results/
-allure-report/
 
-# Screenshots
-screenshots/
+# =========================
+# JMETER
+# =========================
+load-tests/jmeter-tools/
+load-tests/jmeter/logs/
+load-tests/jmeter/results/jtl/
+load-tests/jmeter/results/reports/
 
-# Environment / config
+# =========================
+# ENV
+# =========================
 *.properties
 *.env
-
-# OS
-Thumbs.db

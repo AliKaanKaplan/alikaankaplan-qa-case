@@ -26,6 +26,9 @@
         <restassured.version>5.5.1</restassured.version>
         <jackson.version>2.18.3</jackson.version>
         <maven.surefire.version>3.5.2</maven.surefire.version>
+        <browser>chrome</browser>
+        <slf4j.version>2.0.13</slf4j.version>
+        <log4j.version>2.23.1</log4j.version>
     </properties>
 
 </project>
